@@ -7,7 +7,13 @@ Happy Code! 👨‍💻 Happy days!
 ## Content
 + UX 🎯
   - Projects Goals
+  - User Goals
   
   ## UX (User Experience)
 ### Project goals
-The objective of this project is develop a new version of an old game Simon with the flag of Brazil. The user will have a great experience. With this I will show my skills in **HTML5** **CSS3** and **JavaScript**. Also the framework **Bootstrap** and the library **jQuery**.
+The objective of this project is develop a new version of an old game Simon with the flag of Brazil. The user will have a great experience. With this I will show my skills in **HTML5**, **CSS3** and **JavaScript**. Also in the framework **Bootstrap** and library **jQuery**.
+
+### User Goals
+- A website with a great user experience.
+- A website visually appealing.
+- Responsive, it should work on desktops, tablets and mobile phones.
