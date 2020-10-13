@@ -10,6 +10,7 @@ Happy Code! 👨‍💻 Happy days!
   - User Goals
   - Site's Owner Goals
   - User Stories
+  - Design Choices 🎨 
   
   ## UX (User Experience)
 ### Project goals
@@ -30,3 +31,12 @@ The objective of this project is develop a new version of an old game Simon with
 - "As an user, I expect this game to be easy to play."  
 - "As an user, I want a game to interact with."  
 - "As an user, I want a game with an enjoyable experience."  
+
+## Design Choices 🎨
+This is a game with the theme inspired in Brazil, so I think in use the colors of the flag of Brazil also some images of green leafs everything to give a good user experience.
+
+
+
+
+
+
