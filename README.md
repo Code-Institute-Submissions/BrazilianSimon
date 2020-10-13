@@ -37,6 +37,8 @@ The objective of this project is develop a new version of an old game Simon with
 This is a game with the theme inspired in Brazil, so I think in use the colors of the flag of Brazil also some images of green leafs everything to give a good user experience.
 
 #### Fonts:
+I chose to use the font **[Luckiest Guy](https://fonts.google.com/specimen/Luckiest+Guy)** because it is a funny font and I think it matches with the game.👨‍💻
+
 
 
 
