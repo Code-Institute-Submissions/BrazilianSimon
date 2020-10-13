@@ -4,10 +4,11 @@ Welcome to my project **Brazilian Simon**. This is a new version of the superb g
 
 Happy Code! 👨‍💻 Happy days!
 
-## Content
+  ## Content
 + UX 🎯
   - Projects Goals
   - User Goals
+  - Site's Owner Goals
   
   ## UX (User Experience)
 ### Project goals
@@ -17,3 +18,9 @@ The objective of this project is develop a new version of an old game Simon with
 - A website with a great user experience.
 - A website visually appealing.
 - Responsive, it should work on desktops, tablets and mobile phones.
+
+### Site's Owner Goals:
+- A game with a nice design and responsiveness.
+- A easy game that a kid can play and have fun.
+- a colorful game with a great user experience.
+
