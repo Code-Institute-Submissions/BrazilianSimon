@@ -9,6 +9,7 @@ Happy Code! 👨‍💻 Happy days!
   - Projects Goals
   - User Goals
   - Site's Owner Goals
+  - User Stories
   
   ## UX (User Experience)
 ### Project goals
@@ -24,3 +25,8 @@ The objective of this project is develop a new version of an old game Simon with
 - A easy game that a kid can play and have fun.
 - a colorful game with a great user experience.
 
+### User Stories:
+- "As an user, I expect a game intuitive."
+- "As an user, I expect this game to be easy to play."  
+- "As an user, I want a game to interact with."  
+- "As an user, I want a game with an enjoyable experience."  
