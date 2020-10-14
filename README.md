@@ -69,7 +69,10 @@ For this project, I created wireframes using [Balsamiq Mockups](https://balsamiq
 * <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a> 
 * <a href="https://developer.mozilla.org/en-US/docs/Web/javascript">JavaScript</a>
 
-
+### Tools & Libraries:
+* <a href="https://git-scm.com/">Git</a>
+* <a href="https://getbootstrap.com/">Bootstrap</a>
+* <a href="https://jquery.com/">jQuery</a>
 
 
 
