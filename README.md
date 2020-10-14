@@ -16,6 +16,7 @@ Happy Code! 👨‍💻 Happy days!
     * Background
     
 + Wireframes 👨‍🔧
++ Features 🤖
   
   ## UX (User Experience)
 ### Project goals
@@ -56,6 +57,24 @@ The image that is fixed in the website's background was taken from [FreePik](htt
 
 ## Wireframes: 🔧
 For this project, I created wireframes using [Balsamiq Mockups](https://balsamiq.cloud/) and [Proto Prototypes](https://proto.io/). I started by creating some basics wireframes for desktop/mobile on Balsamiq just to have an idea. After that, I built a prototype with more styling.
+
+## Features:
+- Easy navigation.
+- Trendy, intuitive design and user experience.
+- User interaction. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
