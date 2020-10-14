@@ -22,6 +22,7 @@ Happy Code! 👨‍💻 Happy days!
 + Testing 🔌
 + Bugs 🐞
 + Deployment 🛸
++ Running Locally 🏠
   
   ## UX (User Experience)
 ### Project goals
@@ -90,6 +91,8 @@ I will follow the Wireframes that I created in order to get what was thought pre
 
 
 ## Deployment: 🚀
+
+#### Running Brazilian Simon Game Locally
 
 
 
