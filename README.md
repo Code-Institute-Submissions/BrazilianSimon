@@ -23,6 +23,7 @@ Happy Code! 👨‍💻 Happy days!
 + Bugs 🐞
 + Deployment 🛸
 + Running Locally 🏠
++ Credits 💳
   
   ## UX (User Experience)
 ### Project goals
@@ -93,6 +94,11 @@ I will follow the Wireframes that I created in order to get what was thought pre
 ## Deployment: 🚀
 
 #### Running Brazilian Simon Game Locally
+
+## Credits: 💳
+* <a href="https://www.significados.com.br/bandeira-do-brasil/">Colour Research</a>
+* <a href="https://coolors.co/">Coolors.co</a>
+* <a href="https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB">Unicorn Revealer</a>
 
 
 
