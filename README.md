@@ -14,6 +14,7 @@ Happy Code! 👨‍💻 Happy days!
     * Fonts
     * Colours
     * Background
+    * Wireframes
   
   ## UX (User Experience)
 ### Project goals
@@ -52,7 +53,8 @@ This Game🎮 was inspired in the flag of Brazil so I used the three colours plu
 #### Background:
 The image that is fixed in the website's background was taken from [FreePik](https://www.freepik.com/). I manually resized the image using a tool called [PhotoPea](https://www.photopea.com/), having accurately sized images reduces the load time of the website.
 
-
+## Wireframes: 🔧
+For this project, I created wireframes using [Balsamiq Mockups](https://balsamiq.cloud/) and [Proto Prototypes](https://proto.io/). I started by creating some basics wireframes for desktop/mobile on Balsamiq just to have an idea. After that, I built a prototype with more styling.
 
 
 
