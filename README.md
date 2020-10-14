@@ -43,6 +43,12 @@ I chose to use the font **[Luckiest Guy](https://fonts.google.com/specimen/Lucki
 #### Colours:
 This Game🎮 was inspired in the flag of Brazil so I used the three colours plus white. 
 
+- **'Green Pigment'** #009c3b:  This colour symbolizes the Brazilian forests.
+- **'Golden Yellow'** #FFDF00: symbolizes the country's riches.
+- **'St Patricks Blue'** #002776: symbolizes the Brazilian sky and rivers.
+- **'White'** #FFFFFF: means the desire for peace.
+
+
 
 
 
