@@ -61,6 +61,8 @@ This Game🎮 was inspired in the flag of Brazil so I used the three colours plu
 - **'St Patricks Blue'** #002776: symbolizes the Brazilian sky and rivers.
 - **'White'** #FFFFFF: means the desire for peace.
 
+![Palette of colours](https://github.com/alychinque/BrazilianSimon/blob/main/wireframes/brazilian-simon-pallet.png)
+
 #### Background:
 The image that is fixed in the website's background was taken from [FreePik](https://www.freepik.com/). I manually resized the image using a tool called [PhotoPea](https://www.photopea.com/), having accurately sized images reduces the load time of the website.
 
