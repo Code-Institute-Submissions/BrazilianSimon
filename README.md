@@ -21,6 +21,7 @@ Happy Code! 👨‍💻 Happy days!
 + Planning 📐
 + Testing 🔌
 + Bugs 🐞
++ Deployment 🛸
   
   ## UX (User Experience)
 ### Project goals
@@ -86,6 +87,9 @@ I will follow the Wireframes that I created in order to get what was thought pre
 
 ## Bugs: 🐞
 #### Bugs During Development:
+
+
+## Deployment: 🚀
 
 
 
