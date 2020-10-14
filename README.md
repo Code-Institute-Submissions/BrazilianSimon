@@ -17,6 +17,7 @@ Happy Code! 👨‍💻 Happy days!
     
 + Wireframes 👨‍🔧
 + Features 🤖
++ Technologies Used 👀
   
   ## UX (User Experience)
 ### Project goals
@@ -63,6 +64,10 @@ For this project, I created wireframes using [Balsamiq Mockups](https://balsamiq
 - Trendy, intuitive design and user experience.
 - User interaction. 
 
+## Technologies Used: 👨‍💻
+* <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a> 
+* <a href="https://developer.mozilla.org/en-US/docs/Web/javascript">JavaScript</a>
 
 
 
