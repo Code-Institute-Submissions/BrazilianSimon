@@ -14,7 +14,8 @@ Happy Code! 👨‍💻 Happy days!
     * Fonts
     * Colours
     * Background
-    * Wireframes
+    
++ Wireframes 👨‍🔧
   
   ## UX (User Experience)
 ### Project goals
