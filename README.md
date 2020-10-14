@@ -18,6 +18,7 @@ Happy Code! 👨‍💻 Happy days!
 + Wireframes 👨‍🔧
 + Features 🤖
 + Technologies Used 👀
++ Planning 📐
   
   ## UX (User Experience)
 ### Project goals
@@ -74,7 +75,8 @@ For this project, I created wireframes using [Balsamiq Mockups](https://balsamiq
 * <a href="https://getbootstrap.com/">Bootstrap</a>
 * <a href="https://jquery.com/">jQuery</a>
 
-
+## Planning: 📐
+I will follow the Wireframes that I created in order to get what was thought previously. I am also planning to create two columns beside the flag one on the right and another on the left, those columns will disappear in the mobile version. Doing some tests is part of the plan as well.
 
 
 
