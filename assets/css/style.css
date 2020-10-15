@@ -4,3 +4,19 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.head{
+    height: 15vh;
+    width: 100%;
+    font-family: 'Luckiest Guy', cursive;
+    background-color: yellow;
+    text-align: center;
+    line-height: 15vh;
+    letter-spacing: 0.5vw;
+    font-size: 4vw;
+}
+
+.title{
+    margin: 0;
+    margin-top: 3.5vh;
+}
