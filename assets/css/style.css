@@ -23,9 +23,21 @@ body{
 }
 
 .panel{
-    margin-top: 8vh;
+    margin-top: 5vh;
     height: 12vh;
     width: 100%;
     background-color: #cecece;
     border: solid 5px #000000;
+}
+
+.flag{
+    padding: 0;
+}
+
+.green {
+    height: 50vh;
+    width: 100%;
+    background: #00A859;
+    
+    
 }
