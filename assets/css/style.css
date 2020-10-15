@@ -14,9 +14,18 @@ body{
     line-height: 15vh;
     letter-spacing: 0.5vw;
     font-size: 4vw;
+    border: solid 5px #000000;
 }
 
 .title{
     margin: 0;
     margin-top: 3.5vh;
+}
+
+.panel{
+    margin-top: 8vh;
+    height: 12vh;
+    width: 100%;
+    background-color: #cecece;
+    border: solid 5px #000000;
 }
