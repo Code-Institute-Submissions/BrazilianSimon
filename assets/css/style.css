@@ -39,6 +39,18 @@ body, .container-fluid, .col{
     border: solid 2px black; 
 }
 
+#turn {
+    background: #330000;
+    color: red;
+    font-family: courier;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.25rem;
+    height: 2rem;
+    width: 3.5rem;  
+    line-height: 30px;
+  }
+
 #green{
     position: absolute;
     cursor: pointer;
