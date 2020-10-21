@@ -31,7 +31,9 @@ body, .container-fluid, .col{
 }
 
 .pan{
+    text-align: center;
     background-color: grey;
+    padding: 10px 0;
     height: 5rem;
     width: 3rem;
     border: solid 2px black; 
