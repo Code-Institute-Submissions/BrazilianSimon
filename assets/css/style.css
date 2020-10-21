@@ -48,6 +48,16 @@ body, .container-fluid, .col{
     background-color:  #00A859;
 }
 
+#yellow{
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    height: 20rem;
+    width: 20rem;
+    clip-path: polygon(50% 10%, 7% 50%, 50% 90%, 93% 50%);
+    background-color:#ffdf00;
+}
+
 /* media query */
 
 @media(min-width:340px){
