@@ -56,8 +56,14 @@ body, .container-fluid, .col{
     }
 }
 
-@media(min-width:340px){
+@media(min-width:376px){
     .panel{
         width: 24rem;
+    }
+}
+
+@media(min-width:340px){
+    #green{
+        width: 40rem;
     }
 }
