@@ -81,6 +81,17 @@ body, .container-fluid, .col{
     border-radius: 5%;
 }
 
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4rem;
+    width: 100%;
+    background-color: yellow;
+    border: solid .5rem black;
+}
+
 /* media query */
 
 @media(min-width:376px){
