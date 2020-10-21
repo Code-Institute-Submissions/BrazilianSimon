@@ -15,20 +15,27 @@
             Brazilian Simon
         </div>
 
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-4 ">
-                    <div class="container-fluid">
-                        <div class="row panel">
-                            <div class="col-3">ON/OFF</div>
-                            <div class="col-3">Start</div>
-                            <div class="col-3">counter</div>
-                            <div class="col-3">Strict</div>
-                        </div>
-                    </div>
+        <div class="container panel">
+            <div class="row">
+                <div class="col-3 pan">
+                    start
+                    <button class="button" id="start">Start</button>
+                </div>
+                <div class="col-3 pan">
+                    on/off
+                    <input type="checkbox" class="toggle" id="on">
+                </div>
+                <div class="col-3 pan">
+                    counter
+                    <div id="turn"></div>
+                </div>
+                <div class="col-3 pan">
+                    strict
+                    <input type="checkbox" class="toggle" id="strict">
                 </div>
             </div>
         </div>
+
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <!-- <div class="col-3 d-none d-md-block">empty</div> -->
