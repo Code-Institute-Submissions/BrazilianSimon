@@ -30,14 +30,11 @@ body, .container-fluid, .col{
     width: 17.5rem;
 }
 
-.flag{
-    padding: 0;
-}
-
-.green {
-    height: 320px;
-    width: 650px;
-    background: #00A859;
+.pan{
+    background-color: grey;
+    height: 5rem;
+    width: 3rem;
+    border: solid 2px black; 
 }
 
 /* media query */
@@ -50,6 +47,6 @@ body, .container-fluid, .col{
 
 @media(min-width:340px){
     .panel{
-        width: 20rem;
+        width: 24rem;
     }
 }
