@@ -77,3 +77,10 @@ body, .container-fluid, .col{
         width: 40rem;
     }
 }
+
+@media(min-width:340px){
+    #yellow{
+        height: 20rem;
+        width: 40rem;
+    }
+}
