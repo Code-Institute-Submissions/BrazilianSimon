@@ -115,3 +115,9 @@ body, .container-fluid, .col{
         top: 16rem;
     }
 }
+
+@media(min-width:415px){
+    #white{
+        width: 10rem;
+    } 
+}
