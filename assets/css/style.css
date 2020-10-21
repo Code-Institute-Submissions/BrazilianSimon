@@ -13,21 +13,13 @@ body, .container-fluid, .col{
     padding: 0;
 }
 
-.head{
-    height: 15vh;
-    width: 100%;
-    font-family: 'Luckiest Guy', cursive;
-    background-color: yellow;
+.header{
     text-align: center;
-    line-height: 15vh;
-    letter-spacing: 0.5vw;
-    font-size: 4vw;
-    border: solid 5px #000000;
-}
-
-.title{
-    margin: 0;
-    margin-top: 3.5vh;
+    background-color: yellow;
+    height: 5rem;
+    border: solid .5rem black;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2rem;
 }
 
 .panel{
