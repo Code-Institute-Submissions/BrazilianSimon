@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 body{
-    margin: 0;
-    padding: 0;
+    background: url("../image/leaf.png") no-repeat bottom right fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .head{
