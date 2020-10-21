@@ -70,6 +70,17 @@ body, .container-fluid, .col{
     top: 17rem;
 }
 
+#white{
+    z-index: 3;
+    position: absolute;
+    cursor: pointer;
+    height: 2rem;
+    width: 8rem;
+    top: 20rem;
+    background-color: white;
+    border-radius: 5%;
+}
+
 /* media query */
 
 @media(min-width:376px){
