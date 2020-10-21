@@ -23,11 +23,11 @@ body, .container-fluid, .col{
 }
 
 .panel{
-    margin-top: 5vh;
-    height: 12vh;
-    width: 450px;
-    background-color: #cecece;
-    border: solid 5px #000000;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0;
+    height: 5rem;
+    width: 17.5rem;
 }
 
 .flag{
@@ -38,6 +38,12 @@ body, .container-fluid, .col{
     height: 320px;
     width: 650px;
     background: #00A859;
-    
-    
+}
+
+/* media query */
+
+@media(min-width:340px){
+    .header{
+        font-size: 3rem;
+    }
 }
