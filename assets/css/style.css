@@ -39,6 +39,15 @@ body, .container-fluid, .col{
     border: solid 2px black; 
 }
 
+#green{
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    height: 20rem;
+    width: 20rem;
+    background-color:  #00A859;
+}
+
 /* media query */
 
 @media(min-width:340px){
