@@ -97,10 +97,31 @@ I will follow the Wireframes that I created in order to get what was thought pre
 ## Bugs: 🐞
 #### Bugs During Development:
 
-
 ## Deployment: 🚀
+When deploying Brazilian Simon using GitHub Pages the following steps were made:
+
+* Opened up <strong>GitHub</strong> in the browser.
+* Signed in using username and password.
+* Selected my <strong>repositories</strong>.
+* Navigated to <strong>'/alychinque/BrazilianSimon/'</strong>.
+* In the top navigation clicked <strong>'settings'</strong>.
+* Scrolled down to the <strong>GitHub Pages</strong> area. 
+* Selected <strong>'Master Branch'</strong> from the <strong>'Source'</strong> dropdown menu.
+* Clicked to confirm my selection.
+* Brazilian Simon Game now live on GitHub Pages.
 
 #### Running Brazilian Simon Game Locally
+Cloning Brazilian Simon Game from GitHub:
+
+* Navigate to <strong>'/alychinque//BrazilianSimon/'</strong>.
+* Click the green <strong>'Clone or Download'</strong> button.
+* Copy the <strong>url</strong> in the dropdown box.
+* Using your favourite <strong>IDE</strong> open up your preferred <strong>terminal</strong>.
+* Navigate to your desired file location. 
+* Copy the following <strong>code</strong> and input it into your terminal to clone Chinque Portfolio website.
+ ```git
+  git clone https://github.com/alychinque/BrazilianSimon/
+   ```
 
 ## Credits: 💳
 * <a href="https://www.significados.com.br/bandeira-do-brasil/">Colour Research</a>
