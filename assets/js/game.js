@@ -25,4 +25,15 @@ start.addEventListener('click', (event) => {
     }
 })
 
+onOff.addEventListener('click', (event) => {
+    if (onOff.checked == true) {
+        on = true
+        turnCounter.innerHTML = "-"
+    } else {
+        on = false
+        turnCounter.innerHTML = ""
+        resetColor()
+        clearInterval(intervalId)
+    }
+})
 
