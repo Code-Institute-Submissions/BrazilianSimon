@@ -37,3 +37,11 @@ onOff.addEventListener('click', (event) => {
     }
 })
 
+strictBtn.addEventListener('click', (event) => {
+    if (strictBtn.checked == true) {
+        strict = true
+    } else {
+        strict = false
+    }
+})
+
