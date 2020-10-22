@@ -65,4 +65,28 @@ function play() {
 
     intervalId = setInterval(gameTurn, 800)
 }
+/**
+ * Switches between player and computer flashes
+ * if compTurn it reads the array and flashes it.
+ */
+function gameTurn() {
+    on = false
 
+    if (flash == turn) {
+        clearInterval(intervalId)
+        compTurn = false
+        resetColor()
+        on = true
+    }
+
+    if (compTurn) {
+        resetColor()
+        setTimeout(() => {
+            if (randomOrder[flash] == 1) one()
+            if (randomOrder[flash] == 2) two()
+            if (randomOrder[flash] == 3) three()
+            if (randomOrder[flash] == 4) four()
+            flash++
+        }, 200)
+    }
+}
