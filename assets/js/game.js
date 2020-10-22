@@ -162,3 +162,73 @@ function flashColor() {
     blue.style.backgroundColor = '#40abff'
     white.style.backgroundColor = '#fff'
 }
+
+
+/**When green is clicked
+ * feeds the array, call the functions check, one 
+ * and resetColor 
+ */
+green.addEventListener('click', (event) => {
+    if (on) {
+        playerOrder.push(1)
+        check()
+        one()
+        if (!win) {
+            setTimeout(() => {
+                resetColor()
+            }, 300)
+        }
+    }
+})
+
+/**When yellow is clicked
+ * feeds the array, call the functions check, two 
+ * and resetColor 
+ */
+yellow.addEventListener('click', (event) => {
+    if (on) {
+        playerOrder.push(2)
+        check()
+        two()
+        if (!win) {
+            setTimeout(() => {
+                resetColor()
+            }, 300)
+        }
+    }
+})
+
+/**When blue is clicked
+ * feeds the array, call the functions check, three 
+ * and resetColor 
+ */
+blue.addEventListener('click', (event) => {
+    if (on) {
+        playerOrder.push(3)
+        check()
+        three()
+        if (!win) {
+            setTimeout(() => {
+                resetColor()
+            }, 300)
+        }
+    }
+})
+
+/**When white is clicked
+ * feeds the array, call the functions check, four 
+ * and resetColor 
+ */
+white.addEventListener('click', (event) => {
+    if (on) {
+        playerOrder.push(4)
+        check()
+        four()
+        if (!win) {
+            setTimeout(() => {
+                resetColor()
+            }, 300)
+        }
+    }
+})
+
