@@ -232,3 +232,50 @@ white.addEventListener('click', (event) => {
     }
 })
 
+/**
+ * Checks if player has been doing the same sequence as the game and 
+ * if player has won the game.
+ * Calls the function gameTurn
+ */
+function check() {
+    if (playerOrder[playerOrder.length - 1] !== randomOrder[playerOrder.length - 1]) {
+        good = false
+    }
+
+    if (playerOrder.length == 20 && good) {
+        winGame()
+    }
+
+    if (good == false) {
+        flashColor()
+        let error = document.getElementById("error")
+        error.play()
+        turnCounter.innerHTML = "NO!"
+        setTimeout(() => {
+            turnCounter.innerHTML = turn
+            resetColor()
+
+            if (strict) {
+                play()
+            } else {
+                compTurn = true
+                flash = 0
+                playerOrder = []
+                good = true
+                intervalId = setInterval(gameTurn, 800)
+            }
+        }, 800)
+
+        noise = false
+    }
+
+    if (turn == playerOrder.length && good && !win) {
+        turn++
+        playerOrder = []
+        compTurn = true
+        flash = 0
+        turnCounter.innerHTML = turn
+        intervalId = setInterval(gameTurn, 800)
+    }
+
+}
