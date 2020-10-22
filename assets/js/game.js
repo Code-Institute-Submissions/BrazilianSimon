@@ -18,3 +18,11 @@ const white = document.querySelector('#white')
 const strictBtn = document.querySelector("#strict")
 const onOff = document.querySelector("#on")
 const start = document.querySelector("#start")
+
+start.addEventListener('click', (event) => {
+    if (on || win) {
+        play()
+    }
+})
+
+
