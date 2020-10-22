@@ -153,3 +153,12 @@ function resetColor() {
     white.style.backgroundColor = '#adb5bd'
 }
 
+/**
+ * flashes all colours
+ */
+function flashColor() {
+    green.style.backgroundColor = '#01ff1b'
+    yellow.style.backgroundColor = '#ff9400'
+    blue.style.backgroundColor = '#40abff'
+    white.style.backgroundColor = '#fff'
+}
