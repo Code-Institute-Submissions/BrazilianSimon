@@ -277,5 +277,20 @@ function check() {
         turnCounter.innerHTML = turn
         intervalId = setInterval(gameTurn, 800)
     }
+}
 
+/**
+ * Flashes the ligths, play the winner's song 
+ * and writes win in the counter.
+ */
+function winGame() {
+    flashColor()
+    let jingleWin = document.getElementById("wins")
+    jingleWin.play()
+    turnCounter.innerHTML = "WIN!"
+    setTimeout(() => {
+        resetColor()
+    }, 300)
+    on = false
+    win = true   
 }
