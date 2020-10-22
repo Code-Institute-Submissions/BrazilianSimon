@@ -143,3 +143,13 @@ function four() {
     white.style.backgroundColor = '#fff'
 }
 
+/**
+ * Return all colours to original form
+ */
+function resetColor() {
+    green.style.backgroundColor = '#00A859'
+    yellow.style.backgroundColor = '#ffdf00'
+    blue.style.backgroundColor = '#3E4095'
+    white.style.backgroundColor = '#adb5bd'
+}
+
