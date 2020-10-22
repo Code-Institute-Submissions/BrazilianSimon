@@ -45,3 +45,24 @@ strictBtn.addEventListener('click', (event) => {
     }
 })
 
+/**
+ * Sets variables, pushes ramdon numbers to 
+ * the Array and to intervalId assigns setInteval.
+ */
+function play() {
+    win = false
+    randomOrder = []
+    playerOrder = []
+    flash = 0
+    intervalId = 0
+    turn = 1
+    turnCounter.innerHTML = 1
+    good = true
+    for (var i = 0; i < 20; i++) {
+        randomOrder.push(Math.floor(Math.random() * 4) + 1)
+    }
+    compTurn = true
+
+    intervalId = setInterval(gameTurn, 800)
+}
+
