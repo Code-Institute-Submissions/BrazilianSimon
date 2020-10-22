@@ -67,7 +67,7 @@ function play() {
 }
 /**
  * Switches between player and computer flashes
- * if compTurn it reads the array and flashes it.
+ * if compTurn is true, it reads the array and flashes it.
  */
 function gameTurn() {
     on = false
@@ -90,3 +90,56 @@ function gameTurn() {
         }, 200)
     }
 }
+
+/**
+ * plays a musical note and flashes the light
+ */
+function one() {
+    
+    if (noise) {
+        let audio1 = document.getElementById("track1")
+        audio1.play()
+    }
+    noise = true
+    green.style.backgroundColor = '#01ff1b'
+}
+
+/**
+ * plays a musical note and flashes the light
+ */
+function two() {
+    
+    if (noise) {
+        let audio2 = document.getElementById("track2")
+        audio2.play()
+    }
+    noise = true;
+    yellow.style.backgroundColor = '#ff9400'
+}
+
+/**
+ * plays a musical note and flashes the light
+ */
+function three() {
+    
+    if (noise) {
+        let audio3 = document.getElementById("track3")
+        audio3.play()
+    }
+    noise = true
+    blue.style.backgroundColor = '#40abff'
+}
+
+/**
+ * plays a musical note and flashes the light
+ */
+function four() {
+    
+    if (noise) {
+        let audio4 = document.getElementById("track4")
+        audio4.play()
+    }
+    noise = true
+    white.style.backgroundColor = '#fff'
+}
+
