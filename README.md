@@ -95,7 +95,7 @@ I will follow the Wireframes that I created in order to get what was thought pre
 
 
 ## Bugs: 🐞
-#### Bugs During Development:
+I have a bug that I could not resolve that is in mobile version when users rotate their screen the footer goes to the middle of the screen.
 
 ## Deployment: 🚀
 When deploying Brazilian Simon using GitHub Pages the following steps were made:
