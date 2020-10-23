@@ -29,7 +29,7 @@ Happy Code! 👨‍💻 Happy days!
   
   ## UX (User Experience)
 ### Project goals
-The objective of this project is develop a new version of an old game Simon with the flag of Brazil. The user will have a great experience. With this I will show my skills in **HTML5**, **CSS3** and **JavaScript**. Also in the framework **Bootstrap** and library **jQuery**.
+The objective of this project is develop a new version of an old game Simon with the flag of Brazil. The user will have a great experience. With this I will show my skills in **HTML5**, **CSS3** and **JavaScript**. Also in the framework **Bootstrap**.
 
 ### User Goals
 - A website with a great user experience.
@@ -85,22 +85,47 @@ For this project, I created wireframes using [Balsamiq Mockups](https://balsamiq
 ### Tools & Libraries:
 * <a href="https://git-scm.com/">Git</a>
 * <a href="https://getbootstrap.com/">Bootstrap</a>
-* <a href="https://jquery.com/">jQuery</a>
+* <a href="https://
+.com/">jQuery</a>
 
 ## Planning: 📐
 I will follow the Wireframes that I created in order to get what was thought previously. I am also planning to create two columns beside the flag one on the right and another on the left, those columns will disappear in the mobile version. Doing some tests is part of the plan as well.
 
 ## Testing: 🔌
 #### Testing Stories:
-
+I tried to use onclick event but the I realised that event listener would be better.
+I have also used querySelector that is newer feature.
+I tested some ways to get random numbers between 1 and 4 until get it.
+setInterval and clearInterval was a good method to set time.
 
 ## Bugs: 🐞
-#### Bugs During Development:
-
+I have a bug that I could not resolve that is in mobile version when users rotate their screen the footer goes to the middle of the screen.
 
 ## Deployment: 🚀
+When deploying Brazilian Simon using GitHub Pages the following steps were made:
+
+* Opened up <strong>GitHub</strong> in the browser.
+* Signed in using username and password.
+* Selected my <strong>repositories</strong>.
+* Navigated to <strong>'/alychinque/BrazilianSimon/'</strong>.
+* In the top navigation clicked <strong>'settings'</strong>.
+* Scrolled down to the <strong>GitHub Pages</strong> area. 
+* Selected <strong>'Master Branch'</strong> from the <strong>'Source'</strong> dropdown menu.
+* Clicked to confirm my selection.
+* Brazilian Simon Game now live on GitHub Pages.
 
 #### Running Brazilian Simon Game Locally
+Cloning Brazilian Simon Game from GitHub:
+
+* Navigate to <strong>'/alychinque//BrazilianSimon/'</strong>.
+* Click the green <strong>'Clone or Download'</strong> button.
+* Copy the <strong>url</strong> in the dropdown box.
+* Using your favourite <strong>IDE</strong> open up your preferred <strong>terminal</strong>.
+* Navigate to your desired file location. 
+* Copy the following <strong>code</strong> and input it into your terminal to clone Chinque Portfolio website.
+ ```git
+  git clone https://github.com/alychinque/BrazilianSimon/
+   ```
 
 ## Credits: 💳
 * <a href="https://www.significados.com.br/bandeira-do-brasil/">Colour Research</a>
