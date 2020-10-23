@@ -29,7 +29,7 @@ Happy Code! 👨‍💻 Happy days!
   
   ## UX (User Experience)
 ### Project goals
-The objective of this project is develop a new version of an old game Simon with the flag of Brazil. The user will have a great experience. With this I will show my skills in **HTML5**, **CSS3** and **JavaScript**. Also in the framework **Bootstrap** and library **jQuery**.
+The objective of this project is develop a new version of an old game Simon with the flag of Brazil. The user will have a great experience. With this I will show my skills in **HTML5**, **CSS3** and **JavaScript**. Also in the framework **Bootstrap**.
 
 ### User Goals
 - A website with a great user experience.
@@ -85,7 +85,8 @@ For this project, I created wireframes using [Balsamiq Mockups](https://balsamiq
 ### Tools & Libraries:
 * <a href="https://git-scm.com/">Git</a>
 * <a href="https://getbootstrap.com/">Bootstrap</a>
-* <a href="https://jquery.com/">jQuery</a>
+* <a href="https://
+.com/">jQuery</a>
 
 ## Planning: 📐
 I will follow the Wireframes that I created in order to get what was thought previously. I am also planning to create two columns beside the flag one on the right and another on the left, those columns will disappear in the mobile version. Doing some tests is part of the plan as well.
