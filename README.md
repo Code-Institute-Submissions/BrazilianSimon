@@ -92,7 +92,10 @@ I will follow the Wireframes that I created in order to get what was thought pre
 
 ## Testing: 🔌
 #### Testing Stories:
-
+I tried to use onclick event but the I realised that event listener would be better.
+I have also used querySelector that is newer feature.
+I tested some ways to get random numbers between 1 and 4 until get it.
+setInterval and clearInterval was a good method to set time.
 
 ## Bugs: 🐞
 I have a bug that I could not resolve that is in mobile version when users rotate their screen the footer goes to the middle of the screen.
