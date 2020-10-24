@@ -1,23 +1,31 @@
-let randomOrder = []
-let playerOrder = []
-let flash
-let turn
-let good
-let compTurn
-let intervalId
-let strict = false
-let noise = true
-let on = false
-let win
+const tr1 = document.querySelector('#track1')
+const tr2 = document.querySelector('#track2')
+const tr3 = document.querySelector('#track3')
+const tr4 = document.querySelector('#track4')
 
-const turnCounter = document.querySelector("#turn")
+const error = document.querySelector('#error')
+const wins = document.querySelector('#wins')
+
 const green = document.querySelector('#green')
 const yellow = document.querySelector('#yellow')
 const blue = document.querySelector('#blue')
 const white = document.querySelector('#white')
-const strictBtn = document.querySelector("#strict")
-const onOff = document.querySelector("#on")
-const start = document.querySelector("#start")
+
+let startBtn = document.querySelector('#start')
+let onBtn = document.querySelector('#on')
+let strictBtn = document.querySelector('#strict')
+let start = false
+let on = false
+let strict = false
+
+let randomOrder = []
+let playerArray = []
+let counter = document.querySelector('#turn')
+let interval
+let turn
+let lightUp
+let gameTurn = true
+let won = false
 
 start.addEventListener('click', (event) => {
     if (on || win) {
