@@ -144,9 +144,9 @@ function resetColor() {
 }
 
 /**
- * flashes all colours
+ * lightup all colours
  */
-function flashColor() {
+function lightUpColor() {
     green.style.backgroundColor = '#01ff1b'
     yellow.style.backgroundColor = '#ff9400'
     blue.style.backgroundColor = '#40abff'
@@ -158,15 +158,17 @@ function flashColor() {
  * feeds the array, call the functions check, one 
  * and resetColor 
  */
+/**When green is clicked
+ * feeds the array, call the functions check, greenligh 
+ * and resetColor 
+ */
 green.addEventListener('click', (event) => {
-    if (on) {
-        playerOrder.push(1)
+    if (on && start) {
+        playerArray.push(1)
         check()
-        one()
-        if (!win) {
-            setTimeout(() => {
-                resetColor()
-            }, 300)
+        greenlight()
+        if (!won) {
+            setTimeout(resetColor, 200)
         }
     }
 })
@@ -176,14 +178,12 @@ green.addEventListener('click', (event) => {
  * and resetColor 
  */
 yellow.addEventListener('click', (event) => {
-    if (on) {
-        playerOrder.push(2)
+    if (on && start) {
+        playerArray.push(2)
         check()
-        two()
-        if (!win) {
-            setTimeout(() => {
-                resetColor()
-            }, 300)
+        yellowlight()
+        if (!won) {
+            setTimeout(resetColor, 200)
         }
     }
 })
@@ -193,14 +193,12 @@ yellow.addEventListener('click', (event) => {
  * and resetColor 
  */
 blue.addEventListener('click', (event) => {
-    if (on) {
-        playerOrder.push(3)
+    if (on && start) {
+        playerArray.push(3)
         check()
-        three()
-        if (!win) {
-            setTimeout(() => {
-                resetColor()
-            }, 300)
+        bluelight()
+        if (!won) {
+            setTimeout(resetColor, 200)
         }
     }
 })
@@ -210,17 +208,16 @@ blue.addEventListener('click', (event) => {
  * and resetColor 
  */
 white.addEventListener('click', (event) => {
-    if (on) {
-        playerOrder.push(4)
+    if (on && start) {
+        playerArray.push(4)
         check()
-        four()
-        if (!win) {
-            setTimeout(() => {
-                resetColor()
-            }, 300)
+        whitelight()
+        if (!won) {
+            setTimeout(resetColor, 200)
         }
     }
 })
+
 
 /**
  * Checks if player has been doing the same sequence as the game and 
