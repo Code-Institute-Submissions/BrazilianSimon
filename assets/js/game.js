@@ -222,47 +222,36 @@ white.addEventListener('click', (event) => {
 /**
  * Checks if player has been doing the same sequence as the game and 
  * if player has won the game.
- * Calls the function gameTurn
+ * Calls the function game to repeat the process
  */
 function check() {
-    if (playerOrder[playerOrder.length - 1] !== randomOrder[playerOrder.length - 1]) {
-        good = false
-    }
-
-    if (playerOrder.length == 20 && good) {
-        winGame()
-    }
-
-    if (good == false) {
-        flashColor()
-        let error = document.getElementById("error")
+    if (playerArray[playerArray.length - 1] !== randomOrder[playerArray.length - 1]) {
+        lightUpColor()
         error.play()
-        turnCounter.innerHTML = "NO!"
+        counter.innerHTML = "###"
         setTimeout(() => {
-            turnCounter.innerHTML = turn
+            counter.innerHTML = turn
             resetColor()
-
+            console.log(strict)
             if (strict) {
                 play()
             } else {
-                compTurn = true
-                flash = 0
-                playerOrder = []
-                good = true
-                intervalId = setInterval(gameTurn, 800)
+                gameTurn = true
+                lightUp = 0
+                playerArray = []
+                interval = setInterval(game, 1000)
             }
         }, 800)
-
-        noise = false
-    }
-
-    if (turn == playerOrder.length && good && !win) {
+    } else if (playerArray.length == 10) {
+        win()
+    } else if (turn == playerArray.length && !won) {
         turn++
-        playerOrder = []
-        compTurn = true
-        flash = 0
-        turnCounter.innerHTML = turn
-        intervalId = setInterval(gameTurn, 800)
+        counter.innerHTML = turn
+        gameTurn = true
+        lightUp = 0
+        playerArray = []
+        interval = setInterval(game, 1000)
+        console.log(interval)
     }
 }
 
