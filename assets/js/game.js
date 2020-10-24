@@ -27,28 +27,29 @@ let lightUp
 let gameTurn = true
 let won = false
 
-start.addEventListener('click', (event) => {
-    if (on || win) {
+startBtn.addEventListener('click', (event) => {
+    if (on || won) {
+        start = true
         play()
     }
 })
 
-onOff.addEventListener('click', (event) => {
-    if (onOff.checked == true) {
+onBtn.addEventListener('click', (event) => {
+    if (onBtn.checked) {
         on = true
-        turnCounter.innerHTML = "-"
+        counter.innerHTML = '0'
     } else {
         on = false
-        turnCounter.innerHTML = ""
+        counter.innerHTML = ''
         resetColor()
-        clearInterval(intervalId)
+        clearInterval(interval)
     }
 })
 
 strictBtn.addEventListener('click', (event) => {
-    if (strictBtn.checked == true) {
+    if (strictBtn.checked) {
         strict = true
-    } else {
+    }else{
         strict = false
     }
 })
