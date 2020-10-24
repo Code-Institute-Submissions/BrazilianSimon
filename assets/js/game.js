@@ -256,17 +256,14 @@ function check() {
 }
 
 /**
- * Flashes the ligths, play the winner's song 
- * and writes win in the counter.
+ * Light up all ligths, play the winner's song 
+ * and writes WIN in the counter.
  */
-function winGame() {
-    flashColor()
-    let jingleWin = document.getElementById("wins")
-    jingleWin.play()
-    turnCounter.innerHTML = "WIN!"
-    setTimeout(() => {
-        resetColor()
-    }, 300)
+function win() {
+    lightUpColor()
+    wins.play()
+    counter.innerHTML = "WIN!"
+    setTimeout(resetColor, 300)
     on = false
-    win = true   
+    won = true   
 }
