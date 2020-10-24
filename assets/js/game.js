@@ -107,52 +107,29 @@ function game() {
 /**
  * plays a musical note and flashes the light
  */
-function one() {
-    
-    if (noise) {
-        let audio1 = document.getElementById("track1")
-        audio1.play()
-    }
-    noise = true
+function greenlight() {
+    tr1.play()
     green.style.backgroundColor = '#01ff1b'
 }
-
 /**
  * plays a musical note and flashes the light
  */
-function two() {
-    
-    if (noise) {
-        let audio2 = document.getElementById("track2")
-        audio2.play()
-    }
-    noise = true;
+function yellowlight() {
+    tr2.play()
     yellow.style.backgroundColor = '#ff9400'
 }
-
 /**
  * plays a musical note and flashes the light
  */
-function three() {
-    
-    if (noise) {
-        let audio3 = document.getElementById("track3")
-        audio3.play()
-    }
-    noise = true
+function bluelight() {
+    tr3.play()
     blue.style.backgroundColor = '#40abff'
 }
-
 /**
  * plays a musical note and flashes the light
  */
-function four() {
-    
-    if (noise) {
-        let audio4 = document.getElementById("track4")
-        audio4.play()
-    }
-    noise = true
+function whitelight() {
+    tr4.play()
     white.style.backgroundColor = '#fff'
 }
 
