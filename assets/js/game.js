@@ -59,21 +59,20 @@ strictBtn.addEventListener('click', (event) => {
  * the Array and to intervalId assigns setInteval.
  */
 function play() {
-    win = false
-    randomOrder = []
-    playerOrder = []
-    flash = 0
-    intervalId = 0
     turn = 1
-    turnCounter.innerHTML = 1
-    good = true
+    lightUp = 0
+    playerArray = []
+    randomOrder = []
+    counter.innerHTML = 1
+    won = false
+    interval = 0
     for (var i = 0; i < 20; i++) {
         randomOrder.push(Math.floor(Math.random() * 4) + 1)
     }
-    compTurn = true
-
-    intervalId = setInterval(gameTurn, 800)
+    gameTurn = true
+    interval = setInterval(game, 1000)
 }
+
 /**
  * Switches between player and computer flashes
  * if compTurn is true, it reads the array and flashes it.
