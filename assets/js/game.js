@@ -55,8 +55,8 @@ strictBtn.addEventListener('click', (event) => {
 })
 
 /**
- * Sets variables, pushes ramdon numbers to 
- * the Array and to intervalId assigns setInteval.
+ * Sets variables, pushes ramdon numbers to the Array,
+ * assigns to interval setInteval and call game.
  */
 function play() {
     turn = 1
@@ -73,30 +73,35 @@ function play() {
     interval = setInterval(game, 1000)
 }
 
-/**
- * Switches between player and computer flashes
- * if compTurn is true, it reads the array and flashes it.
- */
-function gameTurn() {
-    on = false
-
-    if (flash == turn) {
-        clearInterval(intervalId)
-        compTurn = false
-        resetColor()
-        on = true
-    }
-
-    if (compTurn) {
-        resetColor()
-        setTimeout(() => {
-            if (randomOrder[flash] == 1) one()
-            if (randomOrder[flash] == 2) two()
-            if (randomOrder[flash] == 3) three()
-            if (randomOrder[flash] == 4) four()
-            flash++
-        }, 200)
-    }
+/** Switches between player and computer turn
+* if gameTurn is true, it reads the array and light up it.
+*/
+function game() {
+   on = false
+   if (lightUp == turn) {
+       clearInterval(interval)
+       resetColor()
+       on = true
+       gameTurn = false
+   }
+   if (gameTurn) {
+       resetColor()
+       for(var i = -1; i < lightUp; i++){
+           if (randomOrder[lightUp] == 1) {
+               greenlight()
+           }
+           if (randomOrder[lightUp] == 2) {
+               yellowlight()
+           }
+           if (randomOrder[lightUp] == 3) {
+               bluelight()
+           }
+           if (randomOrder[lightUp] == 4) {
+               whitelight()
+           }
+           setTimeout(resetColor, 400)
+       }lightUp++
+   }
 }
 
 /**
